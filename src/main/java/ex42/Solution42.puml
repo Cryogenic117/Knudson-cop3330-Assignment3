@@ -1,0 +1,31 @@
+@startuml
+Class Data {
+String firstName
+String lastName
+int salary
+
+getters
+setters
+toString()
+__
+
+}
+
+Class Solution42{
+List of Data structures
+void main()
+scanFile()
+parseLine()
+}
+note left of Solution42::main
+runs scanFile and prints output
+end note
+
+note left of Solution42::scanFile
+read input file, call parse function, and the return of parseLine to list
+end note
+
+note left of Solution42::parseLine
+will parse an entire string line and return 3 seperate data strings
+end note
+@enduml

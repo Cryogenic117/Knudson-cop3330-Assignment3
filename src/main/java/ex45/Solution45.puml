@@ -1,0 +1,15 @@
+@startuml
+Class ManageFiles{
+readFile()
+outputFile(String name)
+}
+Class Solution45{
+main()
+getInput()
+}
+Solution45::main -> ManageFiles::readFile
+ManageFiles::readFile -> Solution45::main
+Solution45::main -> ManageFiles::outputFile
+
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+Class Solution46{
+main()
+String readFile()
+Map<String,Integer> eachWordFrequency(String)
+String getWordsList(String)
+Map sortMap(map)
+output(map)
+}
+@enduml

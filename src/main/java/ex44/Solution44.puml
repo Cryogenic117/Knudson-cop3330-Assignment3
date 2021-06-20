@@ -1,0 +1,17 @@
+@startuml
+Class Solution44{
+main()
+search()
+printProduct()
+}
+note left of Solution44::main
+will loop for input until product is found
+end note
+note left of Solution44::search
+searches json file for product
+end note
+note left of Solution44::printProduct
+will print product details
+end note
+
+@enduml

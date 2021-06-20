@@ -1,0 +1,10 @@
+@startuml
+Class Solution43{
+main()
+getInput()
+}
+Class LoadWebSkeleton{
+String createFolder(string siteName)
+String createHtmlIndex(string siteName)
+}
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+
+class ReadFile {
+List<String> getContent()
+int entryCount()
+}
+note right of ReadFile::getContent
+will copy list of names from file to list and return list
+end note
+
+note right of ReadFile::entryCount
+Returns number of entries in file
+    end note
+
+class Solution41 {
+void main()
+void generateOut()
+}
+note left of Solution41::main
+Calls ReadFile class methods to obtain data, sorts list, and calls generateOut
+end note
+note left of Solution41::generateOut
+formats and prints data
+end note
+@enduml
